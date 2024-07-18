@@ -4,6 +4,7 @@
 @import "global/visually-hidden.css";
 @import "global/container.css";
 /* Blocks */
-
+@import "blocks/hero.css";
 @import "blocks/header.css";
 @import "blocks/main-nav.css";
+@import "blocks/btn.css";

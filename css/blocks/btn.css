@@ -1,0 +1,17 @@
+.btn {
+
+}
+
+.btn--size-xl {
+    display: block;
+    background-color: #502198;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 30px;
+    width: 420px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
