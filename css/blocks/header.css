@@ -1,0 +1,52 @@
+.header__top {
+    display: grid;
+    grid-template-columns: 1fr 386px 1fr;
+    gap: 20px;
+}
+
+.header__contatcs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.header__phone {
+    display: flex;
+    align-items: center;
+    border: 1px solid #475009;
+    border-radius: 60px;
+    padding: 6px 12px;
+}
+
+.header__phone-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.header__callback {
+    font-family: "Montserrat", "Arial", sans-serif;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #475009;
+    letter-spacing: 0.06em;
+}
+
+.header__user {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.headear__user-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
