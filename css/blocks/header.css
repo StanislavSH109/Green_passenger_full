@@ -43,10 +43,24 @@
     gap: 25px;
 }
 
-.headear__user-list {
+.header__user-list {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
+    /* align-items: center; */
     gap: 15px;
+}
+
+.header_user-link {
+    display: flex;
+    align-items: center;
+}
+
+.header__user-text {
+    margin: 0 0 0 10px;
+    line-height: 20px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #475009;
 }
