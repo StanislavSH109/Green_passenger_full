@@ -35,12 +35,15 @@
     line-height: 18px;
     color: #475009;
     letter-spacing: 0.06em;
+    padding: 0;
+    margin: 0;
 }
 
 .header__user {
     display: flex;
     align-items: center;
     gap: 25px;
+    justify-content: flex-end;
 }
 
 .header__user-list {
@@ -79,4 +82,12 @@
     font-size: 10px;
     line-height: 10px;
     font-weight: 600;
+}
+
+.header__burger {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
