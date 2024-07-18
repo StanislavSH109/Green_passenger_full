@@ -1,7 +1,13 @@
+.header {
+    border-top: 15px solid #52A345;
+}
+
 .header__top {
     display: grid;
     grid-template-columns: 1fr 386px 1fr;
     gap: 20px;
+    margin: 0 0 40px 0;
+    padding: 30px;
 }
 
 .header__contatcs {
@@ -23,6 +29,7 @@
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
+    color: #475009;
 }
 
 .header__callback {
