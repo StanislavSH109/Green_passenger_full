@@ -1,5 +1,18 @@
 .social {
+    display: flex;
+    gap: 15px;
     margin: 0;
     padding: 0;
     list-style: none;
+    flex-wrap: wrap;
+}
+
+.social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #475009;
+    border-radius: 50%;
 }
