@@ -5,8 +5,9 @@
 .about-company__wrapper {
     display: grid;
     grid-template-columns: 300px 1fr;
-    gap: 30px 50px;
+    gap: 21px 50px;
     margin: 0 0 50px 0;
+    align-items: start;
 }
 
 .about-company__img {

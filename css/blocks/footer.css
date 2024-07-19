@@ -7,14 +7,70 @@
     display: grid;
     grid-template-columns: 202px 1fr 202px;
     gap: 20px;
+    align-items: center;
+    margin: 0 0 40px 0;
 }
 
 .footer-logo {
     display: flex;
+    margin: 0 0 20px 0;
+}
+
+.footer__social  {
+    margin: 0 0 0 20px;
 }
 
 .footer__nav-list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px 50px;
+    justify-content: center;
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.footer__nav-link {
+    display: flex;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer__right {
+    display: grid;
+    gap: 15px;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer__contact-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #475009;
+}
+
+.footer__contact-link {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.footer__copyright {
+    font-size: 11px;
+    line-height: 20px;
+    text-align: right;
+    color: #475009;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
