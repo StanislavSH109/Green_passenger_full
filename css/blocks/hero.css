@@ -4,6 +4,7 @@
     padding: 105px;
     min-height: calc(100vh - 187px);
     background-color: rgba(222, 236, 221, 0.8);
+    margin: 0 0 60px 0;
 }
 
 .hero__wrapper {
